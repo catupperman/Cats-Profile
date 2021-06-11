@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(255, 232, 127);
+}
+
+/* Permamemt CSS Rules */
+.title {
+    display: flex;
+}
+.title-block {
+    width: 50%;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    margin: 10px;
+}
