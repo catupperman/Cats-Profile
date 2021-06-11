@@ -22,4 +22,14 @@ ul {
 li {
     margin: 10px;
 }
+
+.hero {
+    flex: 1 0 0;
+    background-image: url("../assets/images/paint-splatter.jpeg");
+    width: 100%;
+    background-position: center;
+    margin-bottom: 25px;
+    height: 200px;
+}
+}
 /* TODO: Split About section from descrition, much like top 50% */
