@@ -2,18 +2,24 @@ body {
     background-color: rgb(255, 232, 127);
 }
 
-/* Permamemt CSS Rules */
+/* CSS Rules */
 .title {
     display: flex;
 }
 .title-block {
     width: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
 }
+
+/*TODO: Separate Cat's Coding font and size from About Me, Projects and Contact Info. */
 
 ul {
     display: flex;
+    list-style-type: none;
 }
 
 li {
     margin: 10px;
 }
+/* TODO: Split About section from descrition, much like top 50% */
