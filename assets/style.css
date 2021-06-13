@@ -1,10 +1,12 @@
 body {
     background-color: lightyellow;
 }
-
 /* CSS Rules */
 .title {
     display: flex;
+}
+h1 {
+    text-align: center;
 }
 
 #name-block{
@@ -14,15 +16,18 @@ body {
     border-style: double;
 }
 
+
 .title-block {
     width: 50%;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     color: hotpink;
+    flex-wrap: wrap;
 }
 
 #nav-list{
     display: flex;
+    flex: 1 0 0;
     border: 1px;
     border-color: magenta;
     border-style: double;
@@ -37,6 +42,7 @@ ul {
 
 li {
     display: flex;
+    flex: 1 0 0;
     margin: 10px;
 }
 
@@ -48,24 +54,49 @@ li {
     margin-bottom: 25px;
     height: 200px;
 }
+
 .about {
     background-position: right;
     width: 100%;
     margin-bottom: 50px;
 }
+
 .about h3 {
     margin: 20px 80px 20px 80px;
     text-align: right;
-
+    color: hotpink;
 }
-img {
+
+.about img {
     max-height: 200px;
     float: left;
     margin-right: 25px;
 }
+
 .about p {
-   box-sizing: border-box;
+    box-sizing: border-box;
     font-size: 16px;
+    color: hotpink;
+    margin: 20px 0px 20px 0px;
+    max-height: 200px;
+    border: 20px;  
+}
+
+.projects {
+    background-position: right;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.projects h3 {
+    margin: 20px 80px 20px 80px;
+    text-align: left;
+    color:hotpink;
+}
+
+.projects img{
+    max-height: 300px;
+    width: 100%;
 }
 
 
