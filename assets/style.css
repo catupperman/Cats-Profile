@@ -1,5 +1,5 @@
 body {
-    background-color: lightyellow;
+    background-color: darkblue;
 }
 /* CSS Rules */
 .title {
@@ -12,7 +12,7 @@ h1 {
 #name-block{
     display: flex;
     border: 1px;
-    border-color: magenta;
+    border-color: hotpink;
     border-style: double;
 }
 
@@ -29,7 +29,7 @@ h1 {
     display: flex;
     flex: 1 0 0;
     border: 1px;
-    border-color: magenta;
+    border-color: hotpink;
     border-style: double;
 }
 /*TODO: Separate Cat's Coding font and size from About Me, Projects and Contact Info. */
@@ -38,6 +38,7 @@ ul {
     display: flex;
     flex: 1 0 0;
     list-style-type: none;
+    flex-wrap: wrap;
 }
 
 li {
@@ -51,6 +52,7 @@ li {
     background-image: url("../assets/images/paint-splatter.jpeg");
     width: 100%;
     background-position: center;
+    margin-top: 20px;
     margin-bottom: 25px;
     height: 200px;
 }
@@ -71,6 +73,7 @@ li {
     max-height: 200px;
     float: left;
     margin-right: 25px;
+    margin-bottom: 20px;
 }
 
 .about p {
@@ -89,7 +92,7 @@ li {
 }
 
 .projects h3 {
-    margin: 20px 80px 20px 80px;
+    margin: 150px;
     text-align: left;
     color:hotpink;
 }
@@ -97,6 +100,39 @@ li {
 .projects img{
     max-height: 300px;
     width: 100%;
+    margin-top: 20px;
+}
+
+.contact {
+    display:flex;
+    margin: 80px;
+}
+
+.contact h3{
+    color:hotpink;
+    margin: 20px;
+    display:flex;
+}
+
+.contact h4{
+    color:hotpink;
+    margin: 20px;
+    display: flex;
+    float: center;
+}
+
+.contact p{
+    color:hotpink;
+    margin: 20px;
+    display: flex;
+    float: center;
+}
+
+.contact a{
+    display:flex;
+    margin: 20px;
+    color:lavenderblush;
+    float: right;
 }
 
 
