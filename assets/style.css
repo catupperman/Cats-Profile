@@ -1,5 +1,5 @@
 body {
-    background-color: darkblue;
+    background-color: blueviolet;
 }
 /* CSS Rules */
 .title {
@@ -15,7 +15,6 @@ h1 {
     border-color: hotpink;
     border-style: double;
 }
-
 
 .title-block {
     width: 50%;
@@ -80,19 +79,21 @@ li {
     box-sizing: border-box;
     font-size: 16px;
     color: hotpink;
-    margin: 20px 0px 20px 0px;
+    margin: 100px 0px 20px 0px;
     max-height: 200px;
-    border: 20px;  
+    border: 20px; 
+    font-family: Arial, Helvetica, sans-serif; 
+    float: center;
 }
 
 .projects {
     background-position: right;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 
 .projects h3 {
-    margin: 150px;
+    margin: 100px 20px 20px 20px;
     text-align: left;
     color:hotpink;
 }
@@ -100,31 +101,30 @@ li {
 .projects img{
     max-height: 300px;
     width: 100%;
-    margin-top: 20px;
+    margin-top: 0px;
 }
 
 .contact {
     display:flex;
     margin: 80px;
+    flex: 1 0 0;
+    flex-wrap: wrap;
 }
 
 .contact h3{
     color:hotpink;
     margin: 20px;
-    display:flex;
 }
 
 .contact h4{
     color:hotpink;
     margin: 20px;
-    display: flex;
     float: center;
 }
 
 .contact p{
     color:hotpink;
     margin: 20px;
-    display: flex;
     float: center;
 }
 
