@@ -102,6 +102,23 @@ li {
     max-height: 300px;
     width: 100%;
     margin-top: 0px;
+    flex-wrap: wrap;
+    flex: 1 0 0;
+}
+
+.card {
+    flex: 0 0 400px;
+    color: hotpink;
+    border-radius: 10px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.card img{
+    max-height: 300px;
+    width: 50%;
+    flex-wrap: wrap;
+    flex-grow: inherit;
 }
 
 .contact {
