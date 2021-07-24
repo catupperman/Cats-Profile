@@ -28,13 +28,15 @@ html {
 }
 h1 {
     text-align: center;
+    align-content: center;
 }
 
 #name-block {
-    display: flex;
+    /*display: flex;*/
     border: 1px;
     border-color: hotpink;
     border-style: double;
+    background-color: transparent;
 }
 
 .title-block {
@@ -43,6 +45,7 @@ h1 {
     text-align: center;
     color: hotpink;
     flex-wrap: wrap;
+    background-color: transparent;
 }
 
 #nav-list {
@@ -52,6 +55,8 @@ h1 {
     border-color: hotpink;
     border-style: double;
     background-color: transparent;
+    justify-content: center;
+    flex-direction: row;
 }
 /*TODO: Separate Cat's Coding font and size from About Me, Projects and Contact Info. */
 
@@ -80,7 +85,7 @@ li {
 
 .about {
     background-position: right;
-    background-color: transparent;
+    margin-top: 20px;
     width: 100%;
     margin-bottom: 50px;
 }
@@ -125,7 +130,7 @@ li {
     max-height: 300px;
     width: 100%;
     margin-top: 0;
-    flex-wrap: wrap;
+    justify-content: center;
     flex: 1 0 0;
 }
 

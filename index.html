@@ -5,23 +5,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/style.css">
     <title>Cat's Coding</title>
 </head>
 
 <body>
-    <!--NavBar Elements-->
+    <!--NavBar Elements, using bootstrap-->
     <nav class="title">
-        <div class="title-block" id="name-block">
-            <h1>Welcome to Cat's Coding</h1>
+        <div class="container">
+            <div class="row">
+              <div class="col medianav" id="icon-cat">
+                <!--Nav Bar Cat image for smaller devices-->
+              </div>
+              <div class="col-6 title-block" id="name-block">
+                <h1>Cat's Coding</h1>
+              </div>
+              <div class="col title-block" id="nav-list">
+                <ul>
+                    <li><a href="#about-info">About</li></a>
+                    <li><a href="#project-examples">Projects</li></a>
+                    <li><a href="#contact-content">Contact</li></a>
+                </ul>
+              </div>
+            </div>
         </div>
-        <div class="title-block" id="nav-list">
-            <ul>
-                <li><a href="#about-info">About</li></a>
-                <li><a href="#project-examples">Projects</li></a>
-                <li><a href="#contact-content">Contact</li></a>
-            </ul>
-        </div>
+       
 
     </nav>
     <!-- TODO: Attempt to center-stretch image across page, or maybe moved into CSS, since it isn't working the way I have it-->
@@ -36,22 +45,18 @@
     <!-- FUTURE TODO: Posting of projects, webpages I've worked on, screen shots of webpages/code, etc.-->
     <section class="projects" id="project-examples">
         <h3>Projects</h3>
-    <img src="assets/images/comingsoon.jpeg">
+    <!--<img src="assets/images/comingsoon.jpeg">-->
     </section>
     <section class="card">
-        <header>Day Planner (Coming Soon)</header>
-        <img src="assets/images/day-planner.png">
+        <a href="https://catupperman.github.io/work-day-scheduler/">Work Day Planner</a>
+        <img src="assets/images/workdayscheduler.jpeg">
     </section>
     <section class="card">
-        <header>Employee Management System (Coming Soon)</header>
-        <img src="assets/images/employee-management-system.png">
+        <a href="https://catupperman.github.io/Code-Quiz/">Coding Quiz</a>
+        <img src="assets/images/codingquiz.jpeg">
     </section>
     <section class="card">
-        <header>Fitness Tracker (Coming Soon)</header>
-        <img src="assets/images/Fitnesstracker.jpg">
-    </section>
-    <section class="card">
-        <header>Weather Dashboard (Coming Soon)</header>
+        <a href="https://catupperman.github.io/Weather-Dashboard/">Weather Dashboard</a>
         <img src="assets/images/weather-dashboard.webp">  
     </section>
 
