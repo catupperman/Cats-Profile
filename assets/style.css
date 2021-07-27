@@ -1,62 +1,61 @@
-/*body {
-    background-image: url("../assets/images/paint-splatter.jpeg");
-}*/
-
 body,
 html {
     height: 100%;
-    /*background-image: url("../assets/images/paint-splatter.jpeg");*/
 }
 
 .parallax {
-    /* The image used */
     background-image: url("../assets/images/paint-splatter.jpeg");
-
-    /* Full height */
     height: 100%;
-
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-/* CSS Rules */
+
 .title {
     display: flex;
-    background-color: transparent;
+}
+#icon-cat{
+    margin: 10px;
+    width: 25%;
+}
+
+#black-cat{
+    height: 50%;
 }
 h1 {
     text-align: center;
     align-content: center;
 }
 
-#name-block {
-    /*display: flex;*/
+#icon-cat {
     border: 1px;
     border-color: hotpink;
     border-style: double;
-    background-color: transparent;
+    margin: 2px;
+}
+
+#name-block {
+    border: 1px;
+    border-color: hotpink;
+    border-style: double;
+    margin: 2px;
 }
 
 .title-block {
     width: 50%;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Courier New', Courier, monospace;
     text-align: center;
     color: hotpink;
     flex-wrap: wrap;
-    background-color: transparent;
 }
 
 #nav-list {
-    display: flex;
-    flex: 1 0 0;
     border: 1px;
     border-color: hotpink;
     border-style: double;
-    background-color: transparent;
-    justify-content: center;
     flex-direction: row;
+    margin: 2px;
 }
 /*TODO: Separate Cat's Coding font and size from About Me, Projects and Contact Info. */
 
@@ -73,45 +72,36 @@ li {
     margin: 10px;
 }
 
-/*.hero {
-    background-color: transparent;
-    flex: 1 0 0;
-    width: 100%;
-    background-position: center;
-    margin-top: 20px;
-    margin-bottom: 25px;
-    height: 200px;
-}*/
-
 .about {
     background-position: right;
-    margin-top: 20px;
+    margin: 20px;
     width: 100%;
-    margin-bottom: 50px;
 }
 
 .about h3 {
-    margin: 20px 80px;
-    text-align: right;
+    text-align: justify;
     color: hotpink;
 }
 
-.about img {
-    max-height: 200px;
-    float: left;
+#profile-photo {
+    /*circlular photo attributes*/
+    border-radius: 50%;
+    width: 300px;
+    max-height: 300px;
     margin-right: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .about p {
     box-sizing: border-box;
     font-size: 16px;
     color: hotpink;
-    margin: 100px 0 20px;
     max-height: 200px;
-    border: 20px;
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    border: 10px;
+    font-family: 'Courier New', Courier, monospace;
     float: center;
+    column-gap: 1em;
 }
 
 .projects {
