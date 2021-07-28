@@ -3,6 +3,16 @@ html {
     height: 100%;
 }
 
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-template-areas: "nav nav nav nav" "about about about about" "projects projects projects projects" "contact contact contact contact";
+    grid-gap: 0.2em;
+
+}
+
 .parallax {
     background-image: url("../assets/images/paint-splatter.jpeg");
     height: 100%;
@@ -13,16 +23,21 @@ html {
 }
 
 .title {
+    background-color: wheat;
+    grid-area: nav;
     display: flex;
 }
-#icon-cat{
+
+#icon-cat {
     margin: 10px;
     width: 25%;
+    background-color: wheat;
 }
 
-#black-cat{
+#black-cat {
     height: 50%;
 }
+
 h1 {
     text-align: center;
     align-content: center;
@@ -73,9 +88,10 @@ li {
 }
 
 .about {
-    background-position: right;
+    background-color: blue;
     margin: 20px;
     width: 100%;
+    grid-area: about;
 }
 
 .about h3 {
@@ -105,9 +121,10 @@ li {
 }
 
 .projects {
-    background-position: right;
+    background-color: purple;
     width: 100%;
     margin-top: 20px;
+    grid-area: projects;
 }
 
 .projects h3 {
@@ -117,14 +134,14 @@ li {
 }
 
 .projects img {
+    justify-content: center;
     max-height: 300px;
     width: 100%;
     margin-top: 0;
-    justify-content: center;
-    flex: 1 0 0;
 }
 
 .card {
+    background-color: slateblue;
     flex: 0 0 400px;
     color: hotpink;
     border-radius: 10px;
@@ -140,10 +157,12 @@ li {
 }
 
 .contact {
+    background-color: salmon;
     display: flex;
     margin: 80px;
     flex: 1 0 0;
     flex-wrap: wrap;
+    grid-area: contact;
 }
 
 .contact h3 {
