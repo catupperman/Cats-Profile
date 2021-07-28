@@ -23,7 +23,6 @@ html {
 }
 
 .title {
-    background-color: wheat;
     grid-area: nav;
     display: flex;
 }
@@ -31,7 +30,6 @@ html {
 #icon-cat {
     margin: 10px;
     width: 25%;
-    background-color: wheat;
 }
 
 #black-cat {
@@ -41,6 +39,7 @@ html {
 h1 {
     text-align: center;
     align-content: center;
+    color: black;
 }
 
 #icon-cat {
@@ -88,7 +87,6 @@ li {
 }
 
 .about {
-    background-color: snow;
     margin-top: 400px;
     width: 100%;
     grid-area: about;
@@ -121,7 +119,6 @@ li {
 }
 
 .projects {
-    background-color: purple;
     width: 100%;
     margin-top: 20px;
     grid-area: projects;
@@ -141,7 +138,6 @@ li {
 }
 
 .card {
-    background-color: slateblue;
     flex: 0 0 400px;
     color: hotpink;
     border-radius: 10px;
@@ -159,10 +155,8 @@ li {
 
 .contact {
     background-color: salmon;
+    margin: 20px;
     display: flex;
-    margin: 80px;
-    flex: 1 0 0;
-    flex-wrap: wrap;
     grid-area: contact;
 }
 
@@ -171,7 +165,7 @@ li {
     margin: 20px;
 }
 
-.contact h4 {
+.contact h5 {
     color: hotpink;
     margin: 20px;
     float: center;
@@ -183,11 +177,20 @@ li {
     float: center;
 }
 
-.contact a {
+#linkedin-icon {
+    border-radius: 50%;
+    max-height: 50px;
     display: flex;
     margin: 20px;
     color: lavenderblush;
     float: right;
+}
+
+#github-icon {
+    border-radius: 50%;
+    max-height: 50px;
+    max-width: 60px;
+
 }
 /* Prevent scroll, and issues when using smaller devices for the parallax*/
 @media only screen and(max-device-width: 1366px) {
