@@ -7,9 +7,9 @@ html {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 1.5fr 1.2fr 0.8fr;
+    grid-template-rows: 0.2fr 2fr 1.2fr 0.8fr;
     grid-template-areas: "nav nav nav nav" "about about about about" "projects projects projects projects" "contact contact contact contact";
-    grid-gap: 0.2em;
+    grid-gap: 20px;
 
 }
 
@@ -35,7 +35,7 @@ html {
 }
 
 #black-cat {
-    height: 50%;
+    margin: 5px;
 }
 
 h1 {
@@ -88,8 +88,8 @@ li {
 }
 
 .about {
-    background-color: blue;
-    margin: 20px;
+    background-color: snow;
+    margin-top: 400px;
     width: 100%;
     grid-area: about;
 }
@@ -128,7 +128,7 @@ li {
 }
 
 .projects h3 {
-    margin: 100px 20px 20px;
+    margin: 20px;
     text-align: left;
     color: hotpink;
 }
@@ -148,6 +148,7 @@ li {
     box-sizing: border-box;
     flex-wrap: wrap;
     text-align: center;
+    margin-top: 10px;
 }
 .card img {
     max-height: 300px;
