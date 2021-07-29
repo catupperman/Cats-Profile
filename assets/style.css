@@ -2,7 +2,7 @@ body,
 html {
     height: 100%;
 }
-
+/*Grid Container*/
 .container {
     display: grid;
     height: 100vh;
@@ -12,7 +12,7 @@ html {
     grid-gap: 20px;
 
 }
-
+/*Parallax attribute*/
 .parallax {
     background-image: url("../assets/images/paint-splatter.jpeg");
     height: 100%;
@@ -27,27 +27,24 @@ html {
     display: flex;
 }
 
-#icon-cat {
-    margin: 10px;
-    width: 25%;
-}
-
-#black-cat {
-    margin: 5px;
-}
-
 h1 {
     text-align: center;
     align-content: center;
     color: black;
 }
 
-#icon-cat {
+button {
+    border-radius: 40%;
+    background-color: lightgray;
+}
+/* TO DO: Add cat gif to corner for a drop down menu when user is on a smaller screen*/
+/*#icon-cat {
     border: 1px;
     border-color: hotpink;
     border-style: double;
     margin: 2px;
-}
+    width: 25%;
+}*/
 
 #name-block {
     border: 1px;
@@ -71,7 +68,6 @@ h1 {
     flex-direction: row;
     margin: 2px;
 }
-/*TODO: Separate Cat's Coding font and size from About Me, Projects and Contact Info. */
 
 ul {
     display: flex;
@@ -119,6 +115,7 @@ li {
 }
 
 .projects {
+    background-color: cornsilk;
     width: 100%;
     margin-top: 20px;
     grid-area: projects;
