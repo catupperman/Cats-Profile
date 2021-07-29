@@ -72,7 +72,6 @@ button {
 ul {
     display: flex;
     flex: 1 0 0;
-    list-style-type: none;
     flex-wrap: wrap;
 }
 
@@ -115,7 +114,7 @@ li {
 }
 
 .projects {
-    background-color: cornsilk;
+    background-color: rgb(221, 219, 219);
     width: 100%;
     margin-top: 20px;
     grid-area: projects;
@@ -141,7 +140,7 @@ li {
     box-sizing: border-box;
     flex-wrap: wrap;
     text-align: center;
-    margin-top: 10px;
+    margin: 15px
 }
 .card img {
     max-height: 300px;
@@ -151,7 +150,6 @@ li {
 }
 
 .contact {
-    background-color: salmon;
     margin: 20px;
     display: flex;
     grid-area: contact;
@@ -177,10 +175,6 @@ li {
 #linkedin-icon {
     border-radius: 50%;
     max-height: 50px;
-    display: flex;
-    margin: 20px;
-    color: lavenderblush;
-    float: right;
 }
 
 #github-icon {
@@ -188,6 +182,12 @@ li {
     max-height: 50px;
     max-width: 60px;
 
+}
+
+#resume-icon {
+    border-radius: 50%;
+    max-height: 50px;
+    max-width: 60px;
 }
 /* Prevent scroll, and issues when using smaller devices for the parallax*/
 @media only screen and(max-device-width: 1366px) {
