@@ -14,9 +14,4 @@ This go around I wanted to try a new technique that we had not touched on in cla
 
 * Contact: catupperman@gmail.com
 
-
-# **Previous Page Screen Shot** 
-[IMG_0120](https://user-images.githubusercontent.com/84750356/122148978-55005c00-ce29-11eb-9c03-5f98cd17231a.jpeg)
-
-
 ![Cats-Profile](assets/cats-profile.gif)
