@@ -1,13 +1,14 @@
 body,
 html {
     height: 100%;
+    background-color: rgba(236, 235, 235, 0.849);
 }
 /*Grid Container*/
 .container {
     display: grid;
     height: 100vh;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 0.2fr 2fr 1.2fr 0.8fr;
+    grid-template-rows: 0.2fr 2fr 1.2fr 1fr;
     grid-template-areas: "nav nav nav nav" "about about about about" "projects projects projects projects" "contact contact contact contact";
     grid-gap: 20px;
 
@@ -106,10 +107,10 @@ li {
     font-size: 16px;
     color: hotpink;
     max-height: 200px;
-    margin: 10px;
+    margin: 10px, auto;
     border: 10px;
     font-family: 'Courier New', Courier, monospace;
-    float: center;
+    text-align: center;
     column-gap: 1em;
 }
 
@@ -134,11 +135,9 @@ li {
 }
 
 .card {
-    flex: 0 0 400px;
     color: hotpink;
     border-radius: 10px;
     box-sizing: border-box;
-    flex-wrap: wrap;
     text-align: center;
     margin: 15px
 }
@@ -151,25 +150,8 @@ li {
 
 .contact {
     margin: 20px;
-    display: flex;
     grid-area: contact;
-}
-
-.contact h3 {
     color: hotpink;
-    margin: 20px;
-}
-
-.contact h5 {
-    color: hotpink;
-    margin: 20px;
-    float: center;
-}
-
-.contact p {
-    color: hotpink;
-    margin: 20px;
-    float: center;
 }
 
 #linkedin-icon {
@@ -194,4 +176,14 @@ li {
     .parallax {
         background-attachment: scroll;
     }
+}
+
+@media only screen and(min-width: 993px) {
+    .about{
+        float: none;
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
 }
