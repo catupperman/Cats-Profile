@@ -70,15 +70,7 @@ button {
     margin: 2px;
 }
 
-ul {
-    display: flex;
-    flex: 1 0 0;
-    flex-wrap: wrap;
-}
-
 li {
-    display: flex;
-    flex: 1 0 0;
     margin: 10px;
 }
 
@@ -178,12 +170,10 @@ li {
     }
 }
 
-@media only screen and(min-width: 993px) {
-    .about{
-        float: none;
-        width: 100%;
-        flex-wrap: wrap;
-        gap: 20px;
+@media all and (min-width: 992px) { 
+    .container {
+      grid-template-areas:
+        "nav nav nav nav" "about about about about" "projects projects projects projects" "contact contact contact contact";
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
     }
-
-}
+  }
