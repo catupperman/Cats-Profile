@@ -176,9 +176,6 @@ li {
         "nav nav nav nav" "about about about about" "projects projects projects projects" "contact contact contact contact";
       grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
     }
-    .about p {
-        font-size: 10px;
-    }
   }
 
   @media all and (min-width: 768px){
