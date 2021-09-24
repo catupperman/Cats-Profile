@@ -38,14 +38,6 @@ button {
     border-radius: 40%;
     background-color: lightgray;
 }
-/* TO DO: Add cat gif to corner for a drop down menu when user is on a smaller screen*/
-/*#icon-cat {
-    border: 1px;
-    border-color: hotpink;
-    border-style: double;
-    margin: 2px;
-    width: 25%;
-}*/
 
 #name-block {
     border: 1px;
@@ -166,6 +158,12 @@ li {
 /* Prevent scroll, and issues when using smaller devices for the parallax*/
 @media only screen and(max-device-width: 1366px) {
     .parallax {
+        background-attachment: scroll;
+    }
+}
+
+@media only screen and (min-device-width: 992px) {
+    .paralax {
         background-attachment: scroll;
     }
 }
